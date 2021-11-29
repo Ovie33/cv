@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: boder-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*nav*/
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.nav ul li {
+  font-family: century;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5 ease;
+}
+.nav ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(20px, 20px, 20px, white);
+}
+
+/* home*/
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../portfoilo/images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  align-items: center;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+.btn {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 50px white;
+  font-weight: bold;
+}
+/* About*/
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: url(../portfoilo/images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg);
+  height: 800px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+.intro2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+#intro p {
+  color: white;
+  text-align: justify;
+}
+/*services section*/
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-image: url(../portfoilo/images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+  height: 800px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 15px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, white 50%, red 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+.box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 30px red;
+}
+/*section section*/
+#section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 800px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.input {
+  padding: 20px;
+  width: 30%;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+}
+#msg {
+  padding: 50px;
+  width: 20%;
+  border: none;
+  outline: none;
+}
+#send {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  outline: none;
+}
+#send:hover {
+  cursor: pointer;
+  box-shadow: 30px white;
+  background-color: black;
+  color: white;
+}
