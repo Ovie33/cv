@@ -52,7 +52,7 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-  background: url(../portfoilo/images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background: url(images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
   height: 900px;
   width: 100%;
   z-index: -1;
@@ -94,7 +94,7 @@ html {
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
-  background-image: url(../portfoilo/images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg);
+  background-image: url(images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg);
   height: 800px;
 }
 .intro {
@@ -117,7 +117,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-image: url(../portfoilo/images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+  background-image: url(images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
   height: 800px;
 }
 .row {
